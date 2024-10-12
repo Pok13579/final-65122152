@@ -1,0 +1,35 @@
+name: final65122152
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  sqflite: ^2.0.0+4
+  font_awesome_flutter: ^10.7.0
+
+  # เพิ่ม dependency สำหรับการใช้งาน sqflite บนเดสก์ท็อป
+  sqflite_common_ffi: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mango.jpg
+    - assets/neem.jpg
+    - assets/bamboo.jpg
+    - assets/ginger.jpg
+    - assets/tulip.jpg
+    - assets/rose.jpg
